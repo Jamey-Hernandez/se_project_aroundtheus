@@ -9,6 +9,7 @@
     height: 74px;
     position: relative;
     margin: 0 auto;
+    padding-top: 45px;
 
 }
 
@@ -16,16 +17,17 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-left: 19px;
-    padding-right: 19px; 
+    /* padding-left: 19px;
+    padding-right: 19px;  */
 }
 
 
 .header {
     padding-top: 45px;
-    border-bottom: 1px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    opacity: 70%;
 }
-
 
 
 .profile {
@@ -99,6 +101,7 @@
 .card {
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
     
 }
 
@@ -117,7 +120,8 @@
     padding-right: 20px;
     align-items: center;
     justify-content: space-between;
-    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .card__like-button {
