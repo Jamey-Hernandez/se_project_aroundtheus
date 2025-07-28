@@ -23,11 +23,14 @@ New technologies used to create this webpage include:
 Future plans for improving the webpage would include adding information about the user. For example, a short description or caption in the profile section that lets the viewer know if these images are places he's been or wants to visit. Perhaps even a small section where viewers can contact or add a comment to the user.
 
   
-**Figma**  
+**Links**  
   
 * [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+
+* [Link to the project on Github Pages] (https://jamey-hernandez.github.io/se_project_aroundtheus/) 
   
 **Images**  
   
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
   
+![my-image-hover-text](./path)

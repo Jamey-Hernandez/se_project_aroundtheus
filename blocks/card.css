@@ -4,7 +4,7 @@
     border-radius: 10px;
 }
 
-.card__list {
+.cards__list {
    display: grid;
    justify-content: center;
    grid-template-columns: repeat(auto-fit, 282px);
@@ -32,12 +32,16 @@
 }
 
 .card__title {
-    color: black;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 219px;
-
+    color: #000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 219px;
 }
 
 
@@ -45,4 +49,17 @@
     background: transparent url(../images/like_heart.svg) center no-repeat;
     width: 21px;
     height: 18px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.card__like-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+  .card__title {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
